@@ -2,6 +2,7 @@ __pycache__/
 config.ini
 config.server
 logfile.txt
+reqAllocations.txt
 test.py
 app.xx
 app1.py

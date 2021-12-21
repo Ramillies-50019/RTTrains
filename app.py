@@ -10,12 +10,14 @@ import smtplib
 import os
 import re
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+configFile = os.path.join(dir_path, 'config.ini')
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read(configFile)
 
-outfile = config['files']['outfile']
-logFile = config['files']['logFile']
-
+outfile = os.path.join(dir_path, config['files']['outfile'])
+logFile = os.path.join(dir_path, config['files']['logFile'])
 
 debug = config.getboolean('general','debug')
 printMsg = config.getboolean('general','printMsg')

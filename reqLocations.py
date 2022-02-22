@@ -13,6 +13,8 @@ all = {
   'MAN': ['NT'],
   'WGW': ['NT'],
   'YRK': ['TP'],
+  'BRI': ['GW'],
+  'BRI': ['GW'],
   'SAL': ['SW'],
   'WAT': ['ALL']
 }

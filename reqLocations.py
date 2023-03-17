@@ -10,11 +10,10 @@ all = {
   'KGX': ['GR'],
   'MCV': ['TP'],
   'LIV': ['NT'],
-  'MAN': ['NT'],
+  'MAN': ['NT', 'AW'],
+  'HHD': ['AW'],
   'WGW': ['NT'],
   'YRK': ['TP'],
   'BRI': ['GW'],
-  'BRI': ['GW'],
-  'SAL': ['SW'],
-  'WAT': ['ALL']
+  'MYB': ['CH']
 }

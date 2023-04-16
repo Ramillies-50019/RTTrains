@@ -169,8 +169,12 @@ def printReqUnitServ(unitServDict, reqDate):
 
   total = 0
   for key in unitServDict:
-    oFile.write(key + '\r')
-    emailBody = emailBody + key + "\r\n"
+    if reqUnits.count(key) > 0:
+      oFile.write(key + '*\r')
+      emailBody = emailBody + key + "*\r\n"
+    else:
+      oFile.write(key + '\r')
+      emailBody = emailBody + key + "\r\n"
     total = total + 1
     allTheServices = unitServDict[key]
     for eachService in allTheServices:

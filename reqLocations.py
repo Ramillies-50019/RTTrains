@@ -9,7 +9,7 @@ all = {
   'CDF': ['AW'],
   'KGX': ['GR'],
   'MCV': ['TP'],
-  'LIV': ['NT'],
+  'LIV': ['NT', 'TP'],
   'MAN': ['NT', 'AW'],
   'HHD': ['AW'],
   'WGW': ['NT'],
